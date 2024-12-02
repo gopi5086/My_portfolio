@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gopinath's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Full-page background video -->
+  <video id="background-video" autoplay loop muted>
+    <source src="background-video_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Gopinath</div>
+    <div class="hamburger">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+  <div class="hero-content">
+    <img src="your-photo.jpg" alt="Your Name" class="hero-photo">
+    <h1>Welcome to My Website</h1>
+    <p>Let's explore the world of web development</p>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a strategic problem solver and a creative thinker, skilled in Python and full-stack development. My passion lies in building efficient and scalable web applications.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Calculator Web App using HTML, CSS, and JavaScript</li>
+      <li>To-do List Web App using HTML, CSS, and JavaScript</li>
+      <li>Simple Landing Page using HTML, CSS, and JavaScript</li>
+      <li>Ecommerce Website using React JS</li>
+      <li>Thief Detection Alarm using Next.js & Tailwind CSS</li>
+    </ul>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>SSLC (10th): 72% - Arignar Anna Boys Higher Secondary School, Poonamallee</li>
+      <li>HSC (12th): 75% - Arignar Anna Boys Higher Secondary School, Poonamallee</li>
+      <li>B.Tech (IT): 7.4 CGPA - DMI College of Engineering</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, JavaScript, React, Python, Java</li>
+      <li>Languages: Tamil, English</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:gngopinath24@gmail.com">gngopinath24@gmail.com</a></li>
+      <li>Mobile: 8667825086</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Copyright © 2024 Gopinath</p>
+  </footer>
+
+  <!-- Chatbot Button to toggle visibility -->
+  <button class="chatbot-toggle-button" onclick="toggleChatbot()">💬</button>
+
+  <!-- Chatbot Container -->
+  <div class="chatbot-container" id="chatbot-container">
+    <div class="loading-spinner" id="loading-spinner"></div>
+    <iframe id="chatbot-iframe" src="https://your-chatbot-platform.com/chatbot" 
+            width="350" height="500" style="border: none; border-radius: 10px;">
+    </iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
